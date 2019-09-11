@@ -5,8 +5,8 @@ const Advertisement = (props) => {
   console.log(props)
 	return (
 		<div className='advertisement'>
-			<h3>{props.title}</h3>
-			<p>{props.price}</p>
+			<h3>title: {props.title}</h3>
+			<p>price: {props.price}</p>
 		</div>
 	);
 };
