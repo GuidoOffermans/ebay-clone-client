@@ -1,0 +1,8 @@
+.advertisement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid black 1px;
+  max-width: 100%;
+  margin: 1rem
+}
