@@ -4,3 +4,13 @@
   width: 90%;
 
 }
+
+.advertisementList a {
+  color:black;
+  text-decoration: none;
+}
+
+.advertisementList a:hover {
+  color:blue;
+  text-decoration: none;
+}

@@ -8,9 +8,14 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: start;
+  justify-content: flex-start;
   font-size: 1.2rem;
   color: white;
+}
+
+.logo{
+  width: 10%;
+  margin:auto auto;
 }
 
 .App-link {
@@ -18,14 +23,21 @@
   text-decoration: none;
   margin: 1rem;
 }
-
+.push-left {
+  margin-left:auto;
+  margin-right:1rem;
+}
+.push-right {
+  margin-right:auto;
+  
+}
 .App-main {
-  background-color: white;
+  background-color: whitesmoke;
   min-height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: stretch;
+  justify-content: flex-start;
   font-size: 1.2rem;
   color: black;
 }
